@@ -9,7 +9,7 @@ Then if Flatpak
 
 ```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10```
 
-OR if Snap
+or if Snap
 
 ```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10```
 
