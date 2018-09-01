@@ -1,26 +1,5 @@
 # Installing-gimp-plugin-registry-into-Gimp-2.10
 
-
-### To easily download around 100 plugins on Linux install the 'gimp-plugin-registry' 
-
-* 1) First ensure plug-in folder exists. If you already have 2.8 install it will exist but just to make sure
-$ mkdir -p /usr/lib/gimp/2.0/plug-ins
-
-
-* 2) Install the 'gimp-plugin-registry'for Debian/Ubuntu this is
-$ sudo apt install gimp-plugin-registry
-
-This installs a bunch (100 ish) plugins into usr/lib/gimp/2.0/plug-ins
-
-* 3)  copy the plugin scripts to the 2.10 folder 
-
-If you've installed via Flatpak GIMP install
-```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10```
-
-If you've installed via Snap GIMP Install
-```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10```
-
-
 ### TL;DR
 ```
 $ mkdir -p /usr/lib/gimp/2.0/plug-ins
@@ -33,6 +12,28 @@ OR
 
 ```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10```
 
+
+
+### Slightly Longer explanation
+
+To easily download around 100 plugins on Linux install the 'gimp-plugin-registry' 
+
+1) First ensure plug-in folder exists. If you already have 2.8 install it will exist but just to make sure
+$ mkdir -p /usr/lib/gimp/2.0/plug-ins
+
+
+2) Install the 'gimp-plugin-registry'for Debian/Ubuntu this is
+$ sudo apt install gimp-plugin-registry
+
+This installs a bunch (100 ish) plugins into usr/lib/gimp/2.0/plug-ins
+
+3)  copy the plugin scripts to the 2.10 folder 
+
+If you've installed via Flatpak GIMP install
+```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10```
+
+If you've installed via Snap GIMP Install
+```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10```
 
 ---
 
