@@ -2,7 +2,7 @@
 
 ### TL;DR
 ```
-$ mkdir -p /usr/lib/gimp/2.0/plug-ins
+$ sudo mkdir -p /usr/lib/gimp/2.0/plug-ins
 $ sudo apt install gimp-plugin-registry
 ```
 Then if Flatpak
