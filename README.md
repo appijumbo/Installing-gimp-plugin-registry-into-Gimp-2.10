@@ -15,43 +15,50 @@ This installs a bunch (100 ish) plugins into usr/lib/gimp/2.0/plug-ins
 * 3)  copy the plugin scripts to the 2.10 folder 
 
 If you've installed via Flatpak GIMP install
-$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10
+```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10```
 
 If you've installed via Snap GIMP Install
-$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10
+```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10```
 
 
 ### TL;DR
+```
 $ mkdir -p /usr/lib/gimp/2.0/plug-ins
 $ sudo apt install gimp-plugin-registry
-$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10  
+```
+Then
+```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/.var/app/org.gimp.GIMP/config/GIMP/2.10```
+
 OR
-$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10
+
+```$ cp -r /usr/lib/gimp/2.0/plug-ins ~/snap/gimp/47/.config/GIMP/2.10```
 
 
-** Note: If you haven't already installed Gimp 2.10 I recommend Flatpak or Snaps as modern developer orientated distribution systems
+---
 
-* Flatpak
+###Note: To install via Flatpak or Snaps; both modern developer orientated distribution systems
+
+#### Flatpak
 To check if Flatpak installed
-$ flatpak --version
+``` $ flatpak --version```
 
 To [install Flatpak](https://flatpak.org/setup/)
 
-And to install Gimp 2.10
-$ flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
+#### And to install Gimp 2.10
+``` $ flatpak install https://flathub.org/repo/appstream/org.gimp.GIMP.flatpakref```
 
 To update ALL your flatpak's   
-$ flatpak update
+```$ flatpak update```
 
-* Snap
+#### Snap
 To check if Snap already installed (default in Ubuntu)
-$ snap --version
+```$ snap --version```
 
 If not, then install via
-$ sudo apt install snapd
+```$ sudo apt install snapd```
 
 Then to install Gimp 2.10
-$ sudo snap install gimp
+```$ sudo snap install gimp```
 
 To refresh ALL your snaps 
-$ snap refresh
+```$ snap refresh```
