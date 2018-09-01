@@ -36,7 +36,7 @@ OR
 
 ---
 
-###Note: To install via Flatpak or Snaps; both modern developer orientated distribution systems
+### Note: To install via Flatpak or Snaps; both modern developer orientated distribution systems
 
 #### Flatpak
 To check if Flatpak installed
